@@ -1,56 +1,69 @@
-.App {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 4vw;
-  padding: 0 1rem;
-  background-image: './assets/discord-background.png';
+  padding: 1rem 2rem;
 }
 
 .logo {
-  height: 4vw;
+  height: 6vw;
 }
 
 .menu {
-  height: 4vw;
+  height: 6vw;
 }
 
-.friends{
+.hero {
   display: flex;
   justify-content: space-between;
-  align-items:flex-end
+  align-items: center;
+  padding: 2rem;
 }
 
-h1 {
-font-family: 'Poppins', sans-serif;
-color: white;
-text-align: left;
-font-size: 64px;
+.hero-text {
+max-width: 600px;
 }
 
-p {
-font-family: 'Roboto', sans-serif; 
-color: white;
-text-align: left;
-font-size: 20px; 
+.hero-text h1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  font-size: 6vw;
+  color: white
 }
 
-body {
-  background-color: blue;
+.buttons .btn-mac {
+  background-color: #5865f2;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  margin-right: 1rem;
+  border-radius: 5px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
 }
 
-.Mac {
-  border-radius: 25px;
-  background-color: #f0f3eb;
-  padding: 15px;
-  width: 200px;
-  height: 15px;
+.buttons .btn-open {
+  background-color: transparent;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
 }
 
-.Open {
-  border-radius: 25px;
-  background-color: #3d3f3b;
-  padding: 15px;
-  width: 300px;
-  height: 15px;
+.hero-image img {
+  max-width: 500px;
+  width: 100%
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-image {
+    margin-top: 2rem;
+  }
 }
