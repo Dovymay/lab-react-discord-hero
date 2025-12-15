@@ -1,0 +1,56 @@
+.App {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4vw;
+  padding: 0 1rem;
+  background-image: './assets/discord-background.png';
+}
+
+.logo {
+  height: 4vw;
+}
+
+.menu {
+  height: 4vw;
+}
+
+.friends{
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-end
+}
+
+h1 {
+font-family: 'Poppins', sans-serif;
+color: white;
+text-align: left;
+font-size: 64px;
+}
+
+p {
+font-family: 'Roboto', sans-serif; 
+color: white;
+text-align: left;
+font-size: 20px; 
+}
+
+body {
+  background-color: blue;
+}
+
+.Mac {
+  border-radius: 25px;
+  background-color: #f0f3eb;
+  padding: 15px;
+  width: 200px;
+  height: 15px;
+}
+
+.Open {
+  border-radius: 25px;
+  background-color: #3d3f3b;
+  padding: 15px;
+  width: 300px;
+  height: 15px;
+}
